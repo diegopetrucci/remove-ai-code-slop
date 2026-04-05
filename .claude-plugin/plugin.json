@@ -1,0 +1,5 @@
+{
+  "name": "remove-ai-code-slop",
+  "description": "Scan a branch's diff and remove AI-generated code slop",
+  "version": "1.0.0"
+}
