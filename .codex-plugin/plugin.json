@@ -1,0 +1,21 @@
+{
+  "name": "remove-ai-code-slop",
+  "version": "1.0.0",
+  "description": "Scan a branch's diff and remove telltale signs of AI-generated code.",
+  "author": {
+    "name": "Diego Petrucci",
+    "url": "https://github.com/diegopetrucci"
+  },
+  "repository": "https://github.com/diegopetrucci/remove-ai-code-slop",
+  "license": "MIT",
+  "keywords": ["code-review", "cleanup", "diff", "developer-tools"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Remove AI Code Slop",
+    "shortDescription": "Clean AI-generated code artifacts",
+    "longDescription": "Review branch diffs and remove unnecessary comments, defensive checks, casts, and style mismatches introduced by AI-generated code.",
+    "developerName": "Diego Petrucci",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"]
+  }
+}
