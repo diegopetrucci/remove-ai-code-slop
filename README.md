@@ -26,6 +26,14 @@ npx skills add https://github.com/diegopetrucci/remove-ai-code-slop --skill remo
 /plugin install remove-ai-code-slop@diegopetrucci-claude-plugins
 ```
 
+### As a Codex plugin
+
+```shell
+codex plugin marketplace add diegopetrucci/ai-agents-skills
+```
+
+Restart Codex, then install `remove-ai-code-slop` from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
+
 ## Usage
 
 Trigger the skill while on a feature branch:
