@@ -4,7 +4,7 @@ description: Scan the current branch's diff and remove AI-generated code slop â€
 license: MIT
 metadata:
   author: Diego Petrucci
-  version: "1.0"
+  version: "1.1"
 ---
 
 # Remove AI Code Slop
